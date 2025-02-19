@@ -6220,7 +6220,7 @@ local ClosureBindings = {
 		}
 	end,
 	[54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
-		Name = "Normal Theme",
+		Name = "Lomu Hub Theme",
 		Accent = Color3.fromRGB(0, 112, 192),  -- Aksen biru terang untuk konsistensi dan tampilan modern
 
 		AcrylicMain = Color3.fromRGB(10, 10, 30),  -- Latar belakang utama yang sangat gelap dengan sentuhan biru
