@@ -6221,18 +6221,15 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        Accent = Color3.fromRGB(220, 53, 69),  -- Merah yang elegan sebagai aksen
+        Accent = Color3.fromRGB(220, 53, 69),
     
-        AcrylicMain = Color3.fromRGB(25, 18, 20),  -- Dark red-tinted background
+        AcrylicMain = Color3.fromRGB(25, 18, 20),
         AcrylicBorder = Color3.fromRGB(45, 30, 35),
-        AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(30, 20, 25),  -- Darker red gradient
-            Color3.fromRGB(40, 25, 30)   -- Lighter red gradient
-        ),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 20, 25), Color3.fromRGB(40, 25, 30)),
         AcrylicNoise = 0.96,
     
         TitleBarLine = Color3.fromRGB(50, 35, 40),
-        Tab = Color3.fromRGB(220, 53, 69),  -- Merah yang sama dengan aksen
+        Tab = Color3.fromRGB(220, 53, 69),
     
         Element = Color3.fromRGB(45, 30, 35),
         ElementBorder = Color3.fromRGB(35, 25, 30),
@@ -6240,9 +6237,9 @@ local ClosureBindings = {
         ElementTransparency = 0.87,
     
         ToggleSlider = Color3.fromRGB(45, 30, 35),
-        ToggleToggled = Color3.fromRGB(220, 53, 69),  -- Merah saat aktif
+        ToggleToggled = Color3.fromRGB(220, 53, 69),
     
-        SliderRail = Color3.fromRGB(180, 45, 55),  -- Merah yang lebih soft untuk rail
+        SliderRail = Color3.fromRGB(180, 45, 55),
     
         DropdownFrame = Color3.fromRGB(50, 35, 40),
         DropdownHolder = Color3.fromRGB(30, 20, 25),
@@ -6253,20 +6250,20 @@ local ClosureBindings = {
     
         Input = Color3.fromRGB(40, 28, 33),
         InputFocused = Color3.fromRGB(50, 35, 40),
-        InputIndicator = Color3.fromRGB(220, 53, 69),  -- Merah untuk indikator
+        InputIndicator = Color3.fromRGB(220, 53, 69),
     
         Dialog = Color3.fromRGB(35, 25, 30),
         DialogHolder = Color3.fromRGB(40, 28, 33),
         DialogHolderLine = Color3.fromRGB(35, 25, 30),
-        DialogButton = Color3.fromRGB(220, 53, 69),  -- Merah untuk button
+        DialogButton = Color3.fromRGB(220, 53, 69),
         DialogButtonBorder = Color3.fromRGB(30, 20, 25),
         DialogBorder = Color3.fromRGB(30, 20, 25),
         DialogInput = Color3.fromRGB(40, 28, 33),
         DialogInputLine = Color3.fromRGB(35, 25, 30),
     
-        Text = Color3.fromRGB(240, 230, 230),  -- Slightly warm white text
-        SubText = Color3.fromRGB(180, 170, 170),  -- Slightly warm gray text
-        Hover = Color3.fromRGB(220, 53, 69),  -- Merah saat hover
+        Text = Color3.fromRGB(240, 230, 230),
+        SubText = Color3.fromRGB(180, 170, 170),
+        Hover = Color3.fromRGB(220, 53, 69),
         HoverChange = 0.04,
     }
     end
