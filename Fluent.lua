@@ -6221,7 +6221,7 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        Accent = Color3.fromRGB(111, 44, 145),     -- Deep purple untuk aksen
+        Accent = Color3.fromRGB(147, 112, 219),    -- Warna ungu halus menggantikan merah
     
         AcrylicMain = Color3.fromRGB(20, 20, 20),
         AcrylicBorder = Color3.fromRGB(13, 13, 13),
@@ -6229,42 +6229,41 @@ local ClosureBindings = {
         AcrylicNoise = 0.98,
     
         TitleBarLine = Color3.fromRGB(13, 13, 13),
-        Tab = Color3.fromRGB(111, 44, 145),        -- Deep purple
+        Tab = Color3.fromRGB(147, 112, 219),       -- Ungu halus untuk tab
     
-        Element = Color3.fromRGB(62, 62, 62),      -- Sama persis dengan Normal Theme
-        ElementBorder = Color3.fromRGB(18, 18, 18),
-        InElementBorder = Color3.fromRGB(15, 15, 15),
+        Element = Color3.fromRGB(62,62,62),
+        ElementBorder = Color3.fromRGB(18,18,18),
+        InElementBorder = Color3.fromRGB(15,15,15),
         ElementTransparency = 0.87,
     
-        -- Toggle yang direvisi
-        ToggleSlider = Color3.fromRGB(223, 223, 223),  -- Putih untuk slider
-        ToggleToggled = Color3.fromRGB(40, 40, 40),    -- Gelap ketika aktif
+        ToggleSlider = Color3.fromRGB(223, 223, 223),
+        ToggleToggled = Color3.fromRGB(40, 40, 40),
     
-        SliderRail = Color3.fromRGB(81, 24, 105),      -- Deep purple yang lebih gelap untuk rail
+        SliderRail = Color3.fromRGB(137, 102, 209),  -- Ungu yang sedikit lebih gelap untuk rail
     
-        DropdownFrame = Color3.fromRGB(180, 180, 180),
-        DropdownHolder = Color3.fromRGB(20, 20, 20),
-        DropdownBorder = Color3.fromRGB(15, 15, 15),
+        DropdownFrame = Color3.fromRGB(180,180,180),
+        DropdownHolder = Color3.fromRGB(20,20,20),
+        DropdownBorder = Color3.fromRGB(15,15,15),
         DropdownOption = Color3.fromRGB(57, 57, 57),
     
         Keybind = Color3.fromRGB(20, 20, 20),
     
         Input = Color3.fromRGB(20, 20, 20),
         InputFocused = Color3.fromRGB(20, 10, 30),
-        InputIndicator = Color3.fromRGB(25, 25, 25),
+        InputIndicator = Color3.fromRGB(25,25,25),
     
-        Dialog = Color3.fromRGB(24, 24, 24),
-        DialogHolder = Color3.fromRGB(27, 27, 27),
-        DialogHolderLine = Color3.fromRGB(20, 20, 20),
-        DialogButton = Color3.fromRGB(40, 40, 40),
-        DialogButtonBorder = Color3.fromRGB(27, 27, 27),
+        Dialog = Color3.fromRGB(24,24,24),
+        DialogHolder = Color3.fromRGB(27,27,27),
+        DialogHolderLine = Color3.fromRGB(20,20,20),
+        DialogButton = Color3.fromRGB(40,40,40),
+        DialogButtonBorder = Color3.fromRGB(27,27,27),
         DialogBorder = Color3.fromRGB(172, 172, 172),
-        DialogInput = Color3.fromRGB(35, 35, 35),
-        DialogInputLine = Color3.fromRGB(13, 13, 13),
+        DialogInput = Color3.fromRGB(35,35,35),
+        DialogInputLine = Color3.fromRGB(13,13,13),
     
         Text = Color3.fromRGB(247, 227, 233),
         SubText = Color3.fromRGB(170, 170, 170),
-        Hover = Color3.fromRGB(35, 35, 35),
+        Hover = Color3.fromRGB(35,35,35),
         HoverChange = 0.04,
     }
     end
