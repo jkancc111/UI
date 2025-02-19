@@ -6221,59 +6221,59 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        Accent = Color3.fromRGB(147, 112, 219),    -- Warna ungu medium untuk aksen
+        Accent = Color3.fromRGB(111, 44, 145),     -- Deep purple untuk aksen
     
         -- Background utama
-        AcrylicMain = Color3.fromRGB(20, 18, 26),  -- Hitam dengan sentuhan ungu
-        AcrylicBorder = Color3.fromRGB(15, 13, 20),
+        AcrylicMain = Color3.fromRGB(15, 10, 20),  -- Sangat gelap dengan tint ungu
+        AcrylicBorder = Color3.fromRGB(20, 12, 25),
         AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(20, 18, 26),
-            Color3.fromRGB(22, 20, 28)
+            Color3.fromRGB(15, 10, 20),
+            Color3.fromRGB(18, 12, 23)
         ),
         AcrylicNoise = 0.98,
     
         -- Title dan tab
-        TitleBarLine = Color3.fromRGB(30, 25, 40),
-        Tab = Color3.fromRGB(147, 112, 219),       -- Ungu yang sama dengan accent
+        TitleBarLine = Color3.fromRGB(25, 15, 30),
+        Tab = Color3.fromRGB(111, 44, 145),        -- Deep purple yang sama dengan accent
     
         -- Elemen dasar
-        Element = Color3.fromRGB(45, 40, 60),      -- Abu-abu keunguan
-        ElementBorder = Color3.fromRGB(20, 18, 25),
-        InElementBorder = Color3.fromRGB(25, 22, 30),
-        ElementTransparency = 0.87,
+        Element = Color3.fromRGB(35, 20, 45),      -- Deep purple gelap
+        ElementBorder = Color3.fromRGB(20, 12, 25),
+        InElementBorder = Color3.fromRGB(25, 15, 30),
+        ElementTransparency = 0.89,
     
         -- Toggle dan slider
-        ToggleSlider = Color3.fromRGB(200, 190, 230),  -- Ungu sangat muda
-        ToggleToggled = Color3.fromRGB(40, 35, 50),
-        SliderRail = Color3.fromRGB(103, 78, 167),     -- Ungu yang lebih gelap
+        ToggleSlider = Color3.fromRGB(45, 25, 55), -- Ungu gelap
+        ToggleToggled = Color3.fromRGB(111, 44, 145), -- Deep purple accent
+        SliderRail = Color3.fromRGB(81, 24, 105),   -- Deep purple medium
     
         -- Dropdown
-        DropdownFrame = Color3.fromRGB(180, 175, 190),
-        DropdownHolder = Color3.fromRGB(25, 22, 30),
-        DropdownBorder = Color3.fromRGB(20, 18, 25),
-        DropdownOption = Color3.fromRGB(50, 45, 65),
+        DropdownFrame = Color3.fromRGB(30, 18, 35),
+        DropdownHolder = Color3.fromRGB(20, 12, 25),
+        DropdownBorder = Color3.fromRGB(25, 15, 30),
+        DropdownOption = Color3.fromRGB(40, 22, 50),
     
         -- Input dan keybind
-        Keybind = Color3.fromRGB(25, 22, 30),
-        Input = Color3.fromRGB(25, 22, 30),
-        InputFocused = Color3.fromRGB(30, 25, 40),
-        InputIndicator = Color3.fromRGB(147, 112, 219),  -- Ungu accent
+        Keybind = Color3.fromRGB(35, 20, 45),
+        Input = Color3.fromRGB(25, 15, 30),
+        InputFocused = Color3.fromRGB(40, 22, 50),
+        InputIndicator = Color3.fromRGB(111, 44, 145), -- Deep purple accent
     
         -- Dialog
-        Dialog = Color3.fromRGB(25, 22, 30),
-        DialogHolder = Color3.fromRGB(30, 25, 40),
-        DialogHolderLine = Color3.fromRGB(25, 22, 30),
-        DialogButton = Color3.fromRGB(45, 40, 60),
-        DialogButtonBorder = Color3.fromRGB(30, 25, 40),
-        DialogBorder = Color3.fromRGB(40, 35, 50),
-        DialogInput = Color3.fromRGB(35, 30, 45),
-        DialogInputLine = Color3.fromRGB(20, 18, 25),
+        Dialog = Color3.fromRGB(20, 12, 25),
+        DialogHolder = Color3.fromRGB(25, 15, 30),
+        DialogHolderLine = Color3.fromRGB(30, 18, 35),
+        DialogButton = Color3.fromRGB(35, 20, 45),
+        DialogButtonBorder = Color3.fromRGB(40, 22, 50),
+        DialogBorder = Color3.fromRGB(30, 18, 35),
+        DialogInput = Color3.fromRGB(25, 15, 30),
+        DialogInputLine = Color3.fromRGB(35, 20, 45),
     
         -- Teks
-        Text = Color3.fromRGB(230, 225, 240),      -- Putih dengan sentuhan ungu
-        SubText = Color3.fromRGB(170, 165, 180),   -- Abu-abu keunguan
-        Hover = Color3.fromRGB(55, 45, 70),        -- Ungu gelap untuk hover
-        HoverChange = 0.04,
+        Text = Color3.fromRGB(230, 220, 240),      -- Putih dengan hint ungu
+        SubText = Color3.fromRGB(145, 130, 160),   -- Ungu muda untuk subtext
+        Hover = Color3.fromRGB(81, 24, 105),       -- Deep purple untuk hover
+        HoverChange = 0.05,
     }
     end
 } -- [RefId] = Closure
