@@ -6221,60 +6221,59 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        -- Warna utama/aksen
-        Accent = Color3.fromRGB(220, 53, 69),  -- Merah terang untuk aksen utama
-        
-        -- Background dan border utama
-        AcrylicMain = Color3.fromRGB(18, 18, 18),      -- Hitam sangat gelap untuk background
-        AcrylicBorder = Color3.fromRGB(35, 35, 35),    -- Abu-abu gelap untuk border
+        Accent = Color3.fromRGB(255, 34, 97),  -- Pink-red yang lebih vibrant
+    
+        -- Background utama
+        AcrylicMain = Color3.fromRGB(20, 20, 20),      -- Hitam yang sama
+        AcrylicBorder = Color3.fromRGB(13, 13, 13),    -- Border lebih gelap
         AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(18, 18, 18),                -- Sama dengan main untuk konsistensi
-            Color3.fromRGB(22, 22, 22)                 -- Sedikit lebih terang
+            Color3.fromRGB(20, 20, 20),
+            Color3.fromRGB(15, 15, 15)
         ),
-        AcrylicNoise = 0.98,                          -- Noise minimal untuk kesan premium
-        
-        -- Title bar dan tab
-        TitleBarLine = Color3.fromRGB(40, 40, 40),    -- Abu-abu untuk garis title
-        Tab = Color3.fromRGB(220, 53, 69),            -- Merah aksen untuk tab aktif
-        
-        -- Elemen UI dasar
-        Element = Color3.fromRGB(30, 30, 30),         -- Abu-abu gelap untuk elemen
-        ElementBorder = Color3.fromRGB(45, 45, 45),   -- Abu-abu untuk border elemen
-        InElementBorder = Color3.fromRGB(50, 50, 50), -- Abu-abu lebih terang untuk inner border
-        ElementTransparency = 0.92,                   -- Lebih transparan untuk kesan premium
-        
-        -- Toggle dan Slider
-        ToggleSlider = Color3.fromRGB(35, 35, 35),    -- Abu-abu untuk slider nonaktif
-        ToggleToggled = Color3.fromRGB(220, 53, 69),  -- Merah aksen untuk toggle aktif
-        SliderRail = Color3.fromRGB(220, 53, 69),     -- Merah aksen untuk rail slider
-        
+        AcrylicNoise = 0.98,
+    
+        -- Title dan tab
+        TitleBarLine = Color3.fromRGB(13, 13, 13),
+        Tab = Color3.fromRGB(255, 34, 97),  -- Sama dengan accent
+    
+        -- Elemen dasar
+        Element = Color3.fromRGB(62, 62, 62),
+        ElementBorder = Color3.fromRGB(18, 18, 18),
+        InElementBorder = Color3.fromRGB(15, 15, 15),
+        ElementTransparency = 0.87,
+    
+        -- Toggle dan slider
+        ToggleSlider = Color3.fromRGB(223, 223, 223),  -- Putih untuk kontras
+        ToggleToggled = Color3.fromRGB(40, 40, 40),
+        SliderRail = Color3.fromRGB(189, 25, 74),      -- Merah yang lebih gelap
+    
         -- Dropdown
-        DropdownFrame = Color3.fromRGB(25, 25, 25),   -- Sedikit lebih gelap dari element
-        DropdownHolder = Color3.fromRGB(20, 20, 20),  -- Lebih gelap untuk holder
-        DropdownBorder = Color3.fromRGB(40, 40, 40),  -- Abu-abu untuk border dropdown
-        DropdownOption = Color3.fromRGB(35, 35, 35),  -- Abu-abu untuk opsi
-        
-        -- Input dan Keybind
-        Keybind = Color3.fromRGB(35, 35, 35),         -- Abu-abu untuk keybind
-        Input = Color3.fromRGB(25, 25, 25),           -- Gelap untuk input background
-        InputFocused = Color3.fromRGB(40, 40, 40),    -- Abu-abu saat focus
-        InputIndicator = Color3.fromRGB(220, 53, 69), -- Merah aksen untuk indikator
-        
-        -- Dialog/Modal
-        Dialog = Color3.fromRGB(20, 20, 20),          -- Sangat gelap untuk dialog
-        DialogHolder = Color3.fromRGB(25, 25, 25),    -- Sedikit lebih terang
-        DialogHolderLine = Color3.fromRGB(30, 30, 30),-- Garis pemisah
-        DialogButton = Color3.fromRGB(220, 53, 69),   -- Merah aksen untuk button
-        DialogButtonBorder = Color3.fromRGB(40, 40, 40), -- Abu-abu untuk border button
-        DialogBorder = Color3.fromRGB(35, 35, 35),    -- Border dialog
-        DialogInput = Color3.fromRGB(30, 30, 30),     -- Input dalam dialog
-        DialogInputLine = Color3.fromRGB(45, 45, 45), -- Garis input
-        
+        DropdownFrame = Color3.fromRGB(180, 180, 180),
+        DropdownHolder = Color3.fromRGB(20, 20, 20),
+        DropdownBorder = Color3.fromRGB(15, 15, 15),
+        DropdownOption = Color3.fromRGB(57, 57, 57),
+    
+        -- Input dan keybind
+        Keybind = Color3.fromRGB(20, 20, 20),
+        Input = Color3.fromRGB(20, 20, 20),
+        InputFocused = Color3.fromRGB(20, 10, 30),
+        InputIndicator = Color3.fromRGB(25, 25, 25),
+    
+        -- Dialog
+        Dialog = Color3.fromRGB(24, 24, 24),
+        DialogHolder = Color3.fromRGB(27, 27, 27),
+        DialogHolderLine = Color3.fromRGB(20, 20, 20),
+        DialogButton = Color3.fromRGB(40, 40, 40),
+        DialogButtonBorder = Color3.fromRGB(27, 27, 27),
+        DialogBorder = Color3.fromRGB(172, 172, 172),
+        DialogInput = Color3.fromRGB(35, 35, 35),
+        DialogInputLine = Color3.fromRGB(13, 13, 13),
+    
         -- Teks
-        Text = Color3.fromRGB(255, 255, 255),         -- Putih murni untuk teks utama
-        SubText = Color3.fromRGB(170, 170, 170),      -- Abu-abu terang untuk subteks
-        Hover = Color3.fromRGB(220, 53, 69),          -- Merah aksen untuk hover
-        HoverChange = 0.03,                           -- Subtle hover effect
+        Text = Color3.fromRGB(247, 227, 233),      -- Putih dengan sedikit pink
+        SubText = Color3.fromRGB(170, 170, 170),   -- Abu-abu untuk subteks
+        Hover = Color3.fromRGB(35, 35, 35),        -- Abu-abu gelap untuk hover
+        HoverChange = 0.04,
     }
     end
 } -- [RefId] = Closure
