@@ -394,8 +394,8 @@ local ObjectTree = {
 	}
 }
 
-if game:GetService("CoreGui"):FindFirstChild('Normal Hub') then
-	game:GetService("CoreGui"):FindFirstChild('Normal Hub'):Destroy()
+if game:GetService("CoreGui"):FindFirstChild('Lomu Hub') then
+	game:GetService("CoreGui"):FindFirstChild('Lomu Hub'):Destroy()
 end
 
 -- Holds direct closure data
@@ -420,7 +420,7 @@ local ClosureBindings = {
 		local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 		local GUI = New("ScreenGui", {
 			Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
-			Name = "Normal Hub"
+			Name = "Lomu Hub"
 		})
 
 
@@ -439,7 +439,7 @@ local ClosureBindings = {
 			WindowFrame = nil,
 			Unloaded = false,
 
-			Theme = "Normal Theme",
+			Theme = "Lomu Hub Theme",
 			DialogOpen = false,
 			UseAcrylic = false,
 			Acrylic = false,
