@@ -6223,57 +6223,49 @@ local ClosureBindings = {
         Name = "Lomu Hub Theme",
         Accent = Color3.fromRGB(111, 44, 145),     -- Deep purple untuk aksen
     
-        -- Background utama
-        AcrylicMain = Color3.fromRGB(20, 20, 20),  
+        AcrylicMain = Color3.fromRGB(20, 20, 20),
         AcrylicBorder = Color3.fromRGB(13, 13, 13),
-        AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(20, 20, 20),
-            Color3.fromRGB(15, 15, 15)
-        ),
-        AcrylicNoise = 0.97,                       -- Sedikit disesuaikan untuk kejelasan
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(20,20,20), Color3.fromRGB(15,15,15)),
+        AcrylicNoise = 0.98,
     
-        -- Title dan tab
         TitleBarLine = Color3.fromRGB(13, 13, 13),
-        Tab = Color3.fromRGB(111, 44, 145),        
+        Tab = Color3.fromRGB(111, 44, 145),        -- Deep purple
     
-        -- Elemen dasar - Ditingkatkan kontrasnya
-        Element = Color3.fromRGB(35, 35, 35),      -- Lebih gelap untuk kontras yang lebih baik
-        ElementBorder = Color3.fromRGB(50, 50, 50), -- Border lebih terang agar terlihat
-        InElementBorder = Color3.fromRGB(28, 28, 28),
-        ElementTransparency = 0.82,                -- Dikurangi transparansinya
+        Element = Color3.fromRGB(62, 62, 62),      -- Sama persis dengan Normal Theme
+        ElementBorder = Color3.fromRGB(18, 18, 18),
+        InElementBorder = Color3.fromRGB(15, 15, 15),
+        ElementTransparency = 0.87,
     
-        -- Toggle dan slider
-        ToggleSlider = Color3.fromRGB(45, 45, 45), -- Disesuaikan untuk kontras
-        ToggleToggled = Color3.fromRGB(111, 44, 145),
-        SliderRail = Color3.fromRGB(111, 44, 145),
+        -- Toggle yang direvisi
+        ToggleSlider = Color3.fromRGB(223, 223, 223),  -- Putih untuk slider
+        ToggleToggled = Color3.fromRGB(40, 40, 40),    -- Gelap ketika aktif
     
-        -- Dropdown - Diperbaiki kontrasnya
-        DropdownFrame = Color3.fromRGB(40, 40, 40),
-        DropdownHolder = Color3.fromRGB(25, 25, 25),
-        DropdownBorder = Color3.fromRGB(50, 50, 50), -- Border lebih terang
-        DropdownOption = Color3.fromRGB(35, 35, 35),
+        SliderRail = Color3.fromRGB(81, 24, 105),      -- Deep purple yang lebih gelap untuk rail
     
-        -- Input dan keybind
-        Keybind = Color3.fromRGB(35, 35, 35),
-        Input = Color3.fromRGB(35, 35, 35),
-        InputFocused = Color3.fromRGB(45, 45, 45),
-        InputIndicator = Color3.fromRGB(111, 44, 145),
+        DropdownFrame = Color3.fromRGB(180, 180, 180),
+        DropdownHolder = Color3.fromRGB(20, 20, 20),
+        DropdownBorder = Color3.fromRGB(15, 15, 15),
+        DropdownOption = Color3.fromRGB(57, 57, 57),
     
-        -- Dialog
-        Dialog = Color3.fromRGB(25, 25, 25),
-        DialogHolder = Color3.fromRGB(30, 30, 30),
-        DialogHolderLine = Color3.fromRGB(50, 50, 50), -- Garis lebih terlihat
-        DialogButton = Color3.fromRGB(35, 35, 35),
-        DialogButtonBorder = Color3.fromRGB(50, 50, 50),
-        DialogBorder = Color3.fromRGB(50, 50, 50),
+        Keybind = Color3.fromRGB(20, 20, 20),
+    
+        Input = Color3.fromRGB(20, 20, 20),
+        InputFocused = Color3.fromRGB(20, 10, 30),
+        InputIndicator = Color3.fromRGB(25, 25, 25),
+    
+        Dialog = Color3.fromRGB(24, 24, 24),
+        DialogHolder = Color3.fromRGB(27, 27, 27),
+        DialogHolderLine = Color3.fromRGB(20, 20, 20),
+        DialogButton = Color3.fromRGB(40, 40, 40),
+        DialogButtonBorder = Color3.fromRGB(27, 27, 27),
+        DialogBorder = Color3.fromRGB(172, 172, 172),
         DialogInput = Color3.fromRGB(35, 35, 35),
-        DialogInputLine = Color3.fromRGB(50, 50, 50),
+        DialogInputLine = Color3.fromRGB(13, 13, 13),
     
-        -- Teks
-        Text = Color3.fromRGB(255, 255, 255),      -- Pure white untuk keterbacaan
-        SubText = Color3.fromRGB(170, 170, 170),   
-        Hover = Color3.fromRGB(45, 45, 45),        -- Hover lebih terlihat
-        HoverChange = 0.05,                        -- Efek hover lebih kuat
+        Text = Color3.fromRGB(247, 227, 233),
+        SubText = Color3.fromRGB(170, 170, 170),
+        Hover = Color3.fromRGB(35, 35, 35),
+        HoverChange = 0.04,
     }
     end
 } -- [RefId] = Closure
