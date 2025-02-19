@@ -6221,7 +6221,7 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        Accent = Color3.fromRGB(147, 112, 219),    -- Warna ungu halus menggantikan merah
+        Accent = Color3.fromRGB(88, 24, 116),      -- Dark purple pekat
     
         AcrylicMain = Color3.fromRGB(20, 20, 20),
         AcrylicBorder = Color3.fromRGB(13, 13, 13),
@@ -6229,7 +6229,7 @@ local ClosureBindings = {
         AcrylicNoise = 0.98,
     
         TitleBarLine = Color3.fromRGB(13, 13, 13),
-        Tab = Color3.fromRGB(147, 112, 219),       -- Ungu halus untuk tab
+        Tab = Color3.fromRGB(88, 24, 116),         -- Dark purple pekat
     
         Element = Color3.fromRGB(62,62,62),
         ElementBorder = Color3.fromRGB(18,18,18),
@@ -6239,7 +6239,7 @@ local ClosureBindings = {
         ToggleSlider = Color3.fromRGB(223, 223, 223),
         ToggleToggled = Color3.fromRGB(40, 40, 40),
     
-        SliderRail = Color3.fromRGB(137, 102, 209),  -- Ungu yang sedikit lebih gelap untuk rail
+        SliderRail = Color3.fromRGB(68, 14, 96),   -- Dark purple yang lebih gelap untuk rail
     
         DropdownFrame = Color3.fromRGB(180,180,180),
         DropdownHolder = Color3.fromRGB(20,20,20),
@@ -6261,8 +6261,8 @@ local ClosureBindings = {
         DialogInput = Color3.fromRGB(35,35,35),
         DialogInputLine = Color3.fromRGB(13,13,13),
     
-        Text = Color3.fromRGB(247, 227, 233),
-        SubText = Color3.fromRGB(170, 170, 170),
+        Text = Color3.fromRGB(235, 220, 245),      -- Putih dengan hint ungu
+        SubText = Color3.fromRGB(160, 150, 170),   -- Abu-abu dengan hint ungu
         Hover = Color3.fromRGB(35,35,35),
         HoverChange = 0.04,
     }
