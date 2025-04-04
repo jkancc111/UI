@@ -2657,27 +2657,8 @@ local ClosureBindings = {
 				ButtonFrame:SetName(Title)
 			end
 
-			function ButtonFrame:Lock(Message)
-				ButtonFrame.Locked = true
-				ButtonFrame.LockedMessage = Message or "Locked"
-				ButtonFrame.TitleLabel.Text = ButtonFrame.LockedMessage
-				ButtonFrame.Frame.BackgroundTransparency = 0.9
-				ButtonFrame.Frame.UIStroke.Transparency = 0.8
-				ButtonIco.ImageTransparency = 0.8
-			end
-
-			function ButtonFrame:Unlock()
-				ButtonFrame.Locked = false
-				ButtonFrame.TitleLabel.Text = Config.Title
-				ButtonFrame.Frame.BackgroundTransparency = 1
-				ButtonFrame.Frame.UIStroke.Transparency = 0.5
-				ButtonIco.ImageTransparency = 0
-			end
-
 			Creator.AddSignal(ButtonFrame.Frame.MouseButton1Click, function()
-				if not ButtonFrame.Locked then
-					self.Library:SafeCallback(Config.Callback)
-				end
+				self.Library:SafeCallback(Config.Callback)
 			end)
 
 			return ButtonFrame
