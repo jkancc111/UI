@@ -2647,6 +2647,16 @@ local ClosureBindings = {
 				},
 			})
 
+			-- Add SetName function to the button
+			function ButtonFrame:SetName(Name)
+				ButtonFrame.TitleLabel.Text = Name
+			end
+
+			-- Add SetTitle as an alias for SetName for compatibility
+			function ButtonFrame:SetTitle(Title)
+				ButtonFrame:SetName(Title)
+			end
+
 			Creator.AddSignal(ButtonFrame.Frame.MouseButton1Click, function()
 				self.Library:SafeCallback(Config.Callback)
 			end)
