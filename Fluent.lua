@@ -6262,12 +6262,12 @@ local ClosureBindings = {
         InputFocused = Color3.fromRGB(153, 196, 179),  -- Biru kehijauan terang (fokus)
         InputIndicator = Color3.fromRGB(67, 128, 146), -- Accent
     
-        Dialog = Color3.fromRGB(28, 22, 55),           -- Background gelap
-        DialogHolder = Color3.fromRGB(54, 97, 128),    -- Biru sedang
-        DialogHolderLine = Color3.fromRGB(40, 41, 94), -- Biru gelap
-        DialogButton = Color3.fromRGB(67, 128, 146),   -- Accent
-        DialogButtonBorder = Color3.fromRGB(40, 41, 94), -- Biru gelap
-        DialogBorder = Color3.fromRGB(40, 41, 94),     -- Biru gelap
+        Dialog = Color3.fromRGB(54, 97, 128),         -- Biru sedang (lebih terang dari background)
+        DialogHolder = Color3.fromRGB(124, 178, 167), -- Biru kehijauan terang (tombol area)
+        DialogHolderLine = Color3.fromRGB(67, 128, 146), -- Accent (tipis)
+        DialogButton = Color3.fromRGB(67, 128, 146),  -- Accent (tombol Yes/No)
+        DialogButtonBorder = Color3.fromRGB(153, 196, 179), -- Biru kehijauan sangat terang (border tombol)
+        DialogBorder = Color3.fromRGB(67, 128, 146),  -- Accent (border luar dialog)
         DialogInput = Color3.fromRGB(92, 155, 155),    -- Biru kehijauan soft
         DialogInputLine = Color3.fromRGB(67, 128, 146),-- Accent
     
