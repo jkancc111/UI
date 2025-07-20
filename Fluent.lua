@@ -6231,50 +6231,49 @@ local ClosureBindings = {
 	end,
     [54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
         Name = "Lomu Hub Theme",
-        Accent = Color3.fromRGB(251, 165, 24),     -- #FBA518
+        Accent = Color3.fromRGB(187, 134, 252),      -- Primary (Ungu soft)
+        AcrylicMain = Color3.fromRGB(18, 18, 18),    -- Background/Surface
+        AcrylicBorder = Color3.fromRGB(55, 0, 179),  -- Primary Variant (Ungu gelap)
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(18,18,18), Color3.fromRGB(24,24,24)), -- Gradient halus
+        AcrylicNoise = 0.95,
     
-        AcrylicMain = Color3.fromRGB(20, 20, 20),
-        AcrylicBorder = Color3.fromRGB(13, 13, 13),
-        AcrylicGradient = ColorSequence.new(Color3.fromRGB(20,20,20), Color3.fromRGB(15,15,15)),
-        AcrylicNoise = 0.98,
+        TitleBarLine = Color3.fromRGB(55, 0, 179),   -- Primary Variant
+        Tab = Color3.fromRGB(187, 134, 252),         -- Primary
     
-        TitleBarLine = Color3.fromRGB(13, 13, 13),
-        Tab = Color3.fromRGB(251, 165, 24),        -- #FBA518
+        Element = Color3.fromRGB(24, 24, 24),        -- Sedikit lebih terang dari background
+        ElementBorder = Color3.fromRGB(55, 0, 179),  -- Primary Variant
+        InElementBorder = Color3.fromRGB(24, 24, 24),
+        ElementTransparency = 0.90,
     
-        Element = Color3.fromRGB(62, 62, 62),
-        ElementBorder = Color3.fromRGB(18, 18, 18),
-        InElementBorder = Color3.fromRGB(15, 15, 15),
-        ElementTransparency = 0.87,
+        ToggleSlider = Color3.fromRGB(187, 134, 252),-- Primary
+        ToggleToggled = Color3.fromRGB(3, 218, 197), -- Secondary (Tosca)
     
-        ToggleSlider = Color3.fromRGB(223, 223, 223),
-        ToggleToggled = Color3.fromRGB(40, 40, 40),
+        SliderRail = Color3.fromRGB(187, 134, 252),  -- Primary
     
-        SliderRail = Color3.fromRGB(201, 132, 19),  -- Oranye gelap untuk rail
+        DropdownFrame = Color3.fromRGB(24, 24, 24),
+        DropdownHolder = Color3.fromRGB(18, 18, 18),
+        DropdownBorder = Color3.fromRGB(55, 0, 179),
+        DropdownOption = Color3.fromRGB(24, 24, 24),
     
-        DropdownFrame = Color3.fromRGB(180, 180, 180),
-        DropdownHolder = Color3.fromRGB(20, 20, 20),
-        DropdownBorder = Color3.fromRGB(15, 15, 15),
-        DropdownOption = Color3.fromRGB(57, 57, 57),
+        Keybind = Color3.fromRGB(24, 24, 24),
     
-        Keybind = Color3.fromRGB(20, 20, 20),
+        Input = Color3.fromRGB(24, 24, 24),
+        InputFocused = Color3.fromRGB(187, 134, 252), -- Primary
+        InputIndicator = Color3.fromRGB(3, 218, 197), -- Secondary
     
-        Input = Color3.fromRGB(20, 20, 20),
-        InputFocused = Color3.fromRGB(20, 10, 30),
-        InputIndicator = Color3.fromRGB(25, 25, 25),
+        Dialog = Color3.fromRGB(18, 18, 18),
+        DialogHolder = Color3.fromRGB(24, 24, 24),
+        DialogHolderLine = Color3.fromRGB(55, 0, 179),
+        DialogButton = Color3.fromRGB(187, 134, 252),
+        DialogButtonBorder = Color3.fromRGB(55, 0, 179),
+        DialogBorder = Color3.fromRGB(55, 0, 179),
+        DialogInput = Color3.fromRGB(24, 24, 24),
+        DialogInputLine = Color3.fromRGB(187, 134, 252),
     
-        Dialog = Color3.fromRGB(24, 24, 24),
-        DialogHolder = Color3.fromRGB(27, 27, 27),
-        DialogHolderLine = Color3.fromRGB(20, 20, 20),
-        DialogButton = Color3.fromRGB(40, 40, 40),
-        DialogButtonBorder = Color3.fromRGB(27, 27, 27),
-        DialogBorder = Color3.fromRGB(172, 172, 172),
-        DialogInput = Color3.fromRGB(35, 35, 35),
-        DialogInputLine = Color3.fromRGB(13, 13, 13),
-    
-        Text = Color3.fromRGB(255, 236, 209),      -- Putih dengan hint oranye
-        SubText = Color3.fromRGB(180, 170, 155),   -- Abu-abu dengan hint oranye
-        Hover = Color3.fromRGB(35, 35, 35),
-        HoverChange = 0.04,
+        Text = Color3.fromRGB(255, 255, 255),        -- Teks utama
+        SubText = Color3.fromRGB(180, 170, 200),     -- Abu-abu muda
+        Hover = Color3.fromRGB(55, 0, 179),          -- Primary Variant
+        HoverChange = 0.06,
     }
     end
 } -- [RefId] = Closure
