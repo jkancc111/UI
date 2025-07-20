@@ -6248,7 +6248,7 @@ local ClosureBindings = {
     
         -- Warna interaksi
         ToggleSlider = Color3.fromRGB(124, 178, 167),  -- Biru kehijauan terang (slider/toggle)
-        ToggleToggled = Color3.fromRGB(67, 128, 146),  -- Sama dengan Accent
+        ToggleToggled = Color3.fromRGB(124, 178, 167),  -- Sama dengan Accent
         SliderRail = Color3.fromRGB(67, 128, 146),     -- Sama dengan Accent
     
         DropdownFrame = Color3.fromRGB(54, 97, 128),   -- Biru sedang
